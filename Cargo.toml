@@ -26,7 +26,7 @@ crate-type = ["lib"]
 
 [dependencies]
 paillier = { git = "https://github.com/KZen-networks/rust-paillier", tag = "v0.3.0" }
-zk-paillier = { git = "https://github.com/KZen-networks/zk-paillier", tag = "v0.2.0" }
+zk-paillier = { git = "https://github.com/boazarad88/zk-paillier" }
 subtle = {version = "2", features = ["nightly"]}
 serde = "1.0"
 serde_derive = "1.0"
@@ -36,8 +36,8 @@ serde_derive = "1.0"
 cclst = ["class_group"]
 
 [dependencies.curv]
-git = "https://github.com/KZen-networks/curv"
-tag = "v0.2.0"
+git = "https://github.com/boazarad88/curv"
+# tag = "v0.2.0"
 features =  ["ec_secp256k1"]
 
 [dependencies.centipede]
