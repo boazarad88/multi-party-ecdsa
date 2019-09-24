@@ -41,7 +41,7 @@ git = "https://github.com/boazarad88/curv"
 features =  ["ec_secp256k1"]
 
 [dependencies.centipede]
-git = "https://github.com/KZen-networks/centipede"
+git = "https://github.com/boazarad88/centipede"
 tag = "v0.2.0"
 
 [dependencies.class_group]
